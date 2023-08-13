@@ -47,7 +47,7 @@ export const Banner = () => {
                     <button onClick={onButtonClick}>Download Resume</button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
-                    <img src={headerImg}/>
+                    <img src={headerImg} alt='headerimg'/>
                 </Col>
             </Row>
         </Container>
