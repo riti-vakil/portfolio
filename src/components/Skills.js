@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import java from "../assets/img/meter1.svg"
@@ -45,42 +44,42 @@ export const Skills = () => {
                         <p>My skills include frontend and backend development.<br></br>My coding languages include Java, Python and C.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={java} alt="Image" />
+                                <img src={java} alt="java" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={c} alt="Image" />
+                                <img src={c} alt="c" />
                                 <h5>C</h5>
                             </div>
                             <div className="item">
-                                <img src={python} alt="Image" />
+                                <img src={python} alt="python" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={mysql} alt="Image" />
+                                <img src={mysql} alt="sql" />
                                 <h5>MySQL</h5>
                             </div>
                             <div className="item">
-                                <img src={html} alt="Image" />
+                                <img src={html} alt="html" />
                                 <h5>HTML</h5>
                             </div><div className="item">
-                                <img src={css} alt="Image" />
+                                <img src={css} alt="css" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={react} alt="Image" />
+                                <img src={react} alt="react" />
                                 <h5>React.js</h5>
                             </div>
                             <div className="item">
-                                <img src={mongo} alt="Image" />
+                                <img src={mongo} alt="mongo" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={node} alt="Image" />
+                                <img src={node} alt="node" />
                                 <h5>Node.js</h5>
                             </div>
                             <div className="item">
-                                <img src={express} alt="Image" />
+                                <img src={express} alt="express" />
                                 <h5>Express.js</h5>
                             </div>
                             
@@ -89,7 +88,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt='bg' />
     </section>
     )
 }

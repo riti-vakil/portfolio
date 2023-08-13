@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect,useState } from 'react'
+import { useEffect } from 'react'
 
 import { Col, Container,Row } from 'react-bootstrap'
 import headerImg from '../assets/img/header-img.svg'

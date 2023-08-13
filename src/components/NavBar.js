@@ -51,9 +51,9 @@ import navIcon3 from '../assets/img/nav-icon3.svg'
         </Nav>
         <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='https://www.linkedin.com/in/riti-vakil'><img src={navIcon1}/></a>
-                <a href='https://github.com/riti-vakil'><img src={navIcon2}/></a>
-                <a href='https://www.instagram.com/ritivakil/'><img src={navIcon3}/></a>
+                <a href='https://www.linkedin.com/in/riti-vakil'><img src={navIcon1} alt='navIcon'/></a>
+                <a href='https://github.com/riti-vakil'><img src={navIcon2} alt='navIcon'/></a>
+                <a href='https://www.instagram.com/ritivakil/'><img src={navIcon3} alt='navIcon'/></a>
             </div>
             <button className='vvd' onClick={handleContactClick}><span>Let's Connect</span></button>
         </span>
