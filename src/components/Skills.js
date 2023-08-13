@@ -4,21 +4,20 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import java from "../assets/img/meter1.svg"
 import python from "../assets/img/meter3.svg"
-import c from "../assets/img/meter2.svg"
+import c from "../assets/img/c.png"
 import html from "../assets/img/html.svg"
 import css from "../assets/img/css.svg"
 import react from "../assets/img/react.svg"
 import node from "../assets/img/node.svg"
 import mysql from "../assets/img/mysql.svg"
 import mongo from "../assets/img/mongo.svg"
-//import express from "../assets/img/express.svg"
+import express from "../assets/img/express.png"
 import colorSharp from "../assets/img/color-sharp.png"
 
 
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -43,7 +42,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>My skills include frontend and backend development.<br></br>My coding languages include Java, Python and C.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={java} alt="Image" />
@@ -80,10 +79,10 @@ export const Skills = () => {
                                 <img src={node} alt="Image" />
                                 <h5>Node.js</h5>
                             </div>
-                            {/* <div className="item">
+                            <div className="item">
                                 <img src={express} alt="Image" />
                                 <h5>Express.js</h5>
-                            </div> */}
+                            </div>
                             
                         </Carousel>
                     </div>
