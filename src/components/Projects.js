@@ -15,6 +15,18 @@ export const Projects = () => {
     },
     {
         imgUrl: project,
+        title: "Movie-Reviews Application",
+        description: "React.js, Node.js, Express.js, MongoDB, PostMan, Docker",
+        gitHubUrl: "https://github.com/riti-vakil/Movie-Reviews",
+    },
+    {
+        imgUrl: project,
+        title: "Music Recommendation System",
+        description: "Python (Pandas, Matplotlib, NLTK), Streamlit",
+        gitHubUrl: "https://github.com/riti-vakil/Music-Recommendation-System",
+    },
+    {
+        imgUrl: project,
         title: "CrytoVerse",
         description: "React.js, Node.js, CoinRanking and Bing-News API",
         gitHubUrl: "https://github.com/riti-vakil/Crypto-App",
