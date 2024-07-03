@@ -8,10 +8,28 @@ import project from "../assets/img/project.jpg"
 export const Projects = () => {
   const projects = [
     {
-        imgUrl: project,
-        title: "Plant Disease Detection and Cure",
-        description: "PyTorch, Flask, HTML, CSS",
-        gitHubUrl: "",
+      imgUrl: project,
+      title: "Social Sync",
+      description: "Next.js, MongoDB, Node.js, Prisma ORM",
+      gitHubUrl: "https://github.com/riti-vakil/Social-Sync",
+    },
+    {
+      imgUrl: project,
+      title: "Plant Guard",
+      description: "PyTorch, Flask, HTML, CSS",
+      gitHubUrl: "https://github.com/riti-vakil/PlantGuard",
+    },
+    {
+      imgUrl: project,
+      title: "Movie Meter",
+      description: "React.js, Node.js, Express.js, MongoDB, PostMan, Docker",
+      gitHubUrl: "https://github.com/riti-vakil/Movie-Reviews",
+    },
+    {
+      imgUrl: project,
+      title: "Music Recommendation System",
+      description: "Python (Pandas, Matplotlib, NLTK), Streamlit",
+      gitHubUrl: "https://github.com/riti-vakil/Music-Recommendation-System",
     },
     {
         imgUrl: project,
