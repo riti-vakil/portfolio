@@ -24,7 +24,7 @@ export const Banner = () => {
 
 
     const onButtonClick = () => {
-        fetch('Riti Vakil_Resume.pdf').then(response => {
+        fetch('Riti Vakil-Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
